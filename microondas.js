@@ -5,7 +5,7 @@ function microondas(alimento, segundos) {
         case 'Pipoca':
             if (segundos == 10) {
                 console.log("Sua Pipoca esta pronta, bom apetite!!!")
-            } else if (segundos == 2*10) {
+            } else if (segundos >= 2*10 && segundos <= 29) {
                 console.log('Sua Pipoca queimou')
             } else if (segundos < 10) {
                 console.log('Tempo insulficiente')
@@ -18,7 +18,7 @@ function microondas(alimento, segundos) {
         case 'Macarrão':
             if (segundos == 8) {
                 console.log("Seu Macarrão esta Pronto, bom apetite!!!")
-            } else if (segundos == 2*8) {
+            } else if (segundos >= 2*8 && segundos <= 23) {
                 console.log('Seu Macarrão queimou')
             } else if (segundos < 8) {
                 console.log('Tempo insulficiente')
@@ -31,7 +31,7 @@ function microondas(alimento, segundos) {
         case 'Carne':
             if (segundos == 15) {
                 console.log("Sua Carne esta pronta, bom apetite!!!")
-            } else if (segundos == 2*15) {
+            } else if (segundos >= 2*15 && segundos <= 44) {
                 console.log('Sua Carne queimou')
             } else if (segundos < 15) {
                 console.log('Tempo insulficiente')
@@ -44,7 +44,7 @@ function microondas(alimento, segundos) {
         case 'Feijão':
             if (segundos == 12) {
                 console.log("Seu Feijão esta pronto, bom apetite!!!")
-            } else if (segundos == 2*12) {
+            } else if (segundos >= 2*12 && segundos <= 35) {
                 console.log('Seu Feijão queimou')
             } else if (segundos < 12) {
                 console.log('Tempo insulficiente')
@@ -57,7 +57,7 @@ function microondas(alimento, segundos) {
         case 'Brigadeiro':
             if (segundos == 8) {
                 console.log("Seu Brigadeiro esta pronto, bom apetite!!!")
-            } else if (segundos == 2*8) {
+            } else if (segundos >= 2*8 && segundos < 23) {
                 console.log('Seu Brigadeiro queimou')
             } else if (segundos < 8) {
                 console.log('Tempo insulficiente')
